@@ -1,0 +1,360 @@
+/*-------- date_box --------*/
+.date_box {
+  width: 1070px;
+  height: 150px;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto 50px;
+  position: relative;
+}
+.date_box p {
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.date_box .date_bar {
+  width: 1070px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 20px;
+  margin: 40px auto;
+}
+
+.date_box .date_bar .date_btn {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+  line-height: 23px;
+}
+.date_box .date_bar .left {
+  margin: 8px 0 0 10px;
+  float: left;
+}
+.date_box .date_bar .right {
+  margin: 8px 10px 0 0;
+  float: right;
+}
+.date_box .date_bar .left:hover,
+.date_box .date_bar .right:hover {
+  border-color: darkolivegreen;
+  color: darkolivegreen;
+  cursor: pointer;
+}
+
+.date_box ul {
+  margin-left: 200px;
+  position: absolute;
+  top: 50px;
+}
+.date_box ul li {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  float: left;
+}
+.date_box ul li:hover {
+  border-color: darkolivegreen;
+  color: darkolivegreen;
+  cursor: pointer;
+}
+
+/*-------- kimchi_box --------*/
+.kimchi_box {
+  width: 1070px;
+  margin: 0 auto 30px;
+  overflow: hidden;
+}
+.kimchi_box .kimchi_left {
+  width: 450px;
+  height: 700px;
+  margin-right: 50px;
+  float: left;
+}
+.kimchi_box .kimchi_right {
+  width: 570px;
+  height: 700px;
+  float: right;
+}
+
+.kimchi_left .kimchi_left01 img {
+  width: 450px;
+  height: 450px;
+}
+.kimchi_left .kimchi_left02 {
+  width: 450px;
+  height: 50px;
+  margin: 5px 0 20px;
+}
+.kimchi_left .kimchi_left02 img {
+  width: 50px;
+  height: auto;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  float: left;
+}
+.kimchi_left .kimchi_left02 .chat {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 0 0 10px;
+  box-sizing: border-box;
+  float: right;
+}
+.kimchi_left .kimchi_left03 {
+  width: 450px;
+  height: 50px;
+  background-color: #eee;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  line-height: 50px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.kimchi_left .kimchi_left04 {
+  width: 450px;
+  height: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  line-height: 80px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.kimchi_right .kimchi_right01 {
+  border-top: 1px solid #555;
+}
+.kimchi_right .kimchi_right01 .event_text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+.kimchi_right .kimchi_right01 .product_text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+.kimchi_right .kimchi_right01 .origin_text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 80px;
+}
+.kimchi_right .kimchi_right01 .sale_text {
+  font-size: 12px;
+  color: #aaa;
+  text-decoration: line-through;
+}
+.kimchi_right .kimchi_right01 .price_text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+.kimchi_right .kimchi_right02 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  position: relative;
+}
+.kimchi_right .kimchi_right02 .del_text {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  padding: 1px 5px;
+  box-sizing: border-box;
+}
+.kimchi_right .kimchi_right02 .login_text {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #019cdc;
+}
+.kimchi_right .kimchi_right02 .login_btn {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  background-color: #019cdc;
+  border: 1px solid #019cdc;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.kimchi_right .kimchi_right03 {
+  height: 150px;
+  border: 5px solid #ccc;
+  margin-bottom: 20px;
+}
+.kimchi_right .kimchi_right03 .order {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px 20px 10px;
+  box-sizing: border-box;
+}
+.kimchi_right .kimchi_right03 .product {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  line-height: 30px;
+  padding: 20px 20px 10px;
+  box-sizing: border-box;
+}
+.kimchi_right .kimchi_right04 {
+  height: 50px;
+  text-align: right;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.kimchi_right .kimchi_right04 p {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.kimchi_right .kimchi_right04 .price_text {
+  color: #019cdc;
+}
+.kimchi_right .kimchi_right05 {
+  height: 50px;
+  font-size: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.kimchi_right .kimchi_right05 a {
+  display: inline-block;
+  width: 280px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.kimchi_right .kimchi_right05 a:first-child {
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  color: #666;
+  margin-right: 10px;
+}
+.kimchi_right .kimchi_right05 a:last-child {
+  background-color: #019cdc;
+  border: 2px solid #019cdc;
+  box-sizing: border-box;
+  color: white;
+}
+
+/*-------- detail_banner --------*/
+.detail_banner {
+  height: 300px;
+  background-color: #eee;
+}
+.detail_banner p {
+  width: 1070px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 auto;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+/*-------- link --------*/
+.link {
+  width: 1070px;
+  height: 40px;
+  font-size: 0;
+  margin: 80px auto 30px;
+}
+.link p {
+  display: inline-block;
+  width: 214px;
+  height: 40 px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #333;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  color: #888;
+  text-align: center;
+  line-height: 40px;
+}
+.link .link_checked {
+  color: #333;
+  background-color: white;
+  border: 1px solid #333;
+  border-bottom: 0;
+  box-sizing: border-box;
+}
+.link .blank {
+  height: 41px;
+  background-color: white;
+  border: 0;
+  border-bottom: 1px solid #333;
+  box-sizing: border-box;
+}
+
+/*-------- detail_page_img --------*/
+#detail_page_img {
+  width: 1070px;
+  margin: 0 auto;
+}
+#detail_page_img img {
+  width: 1070px;
+  height: auto;
+}
+
+/*-------- review --------*/
+#review {
+  width: 1070px;
+  margin: 0 auto;
+}
+#review img {
+  width: 1070px;
+  height: auto;
+}
+
+/*-------- qna --------*/
+#qna {
+  width: 1070px;
+  margin: 0 auto;
+}
+
+/*-------- notice --------*/
+#notice {
+  width: 1070px;
+  margin: 0 auto 100px;
+}
+#notice img {
+  width: 1070px;
+  height: auto;
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hyfresh</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/sub.css" />
+    <link rel="stylesheet" href="./css/detail.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="gnb">
+        <ul>
+          <li><a href="#!">로그인</a></li>
+          <li><a href="#!">회원가입</a></li>
+          <li><a href="#!">멤버십몰</a></li>
+          <li><a href="#!">이벤트</a></li>
+          <li><a href="#!">장바구니</a></li>
+        </ul>
+      </nav>
+
+      <div class="car_text">
+        <a href="#!">
+          <p>잇츠온 ONLY</p>
+          <p>주문배송 가능지역</p>
+        </a>
+      </div>
+      <div class="car_img">
+        <a href="#!"><img src="./images/main/car_png.png" alt="" /></a>
+      </div>
+
+      <div class="logo">
+        <a href="index.html"><img src="./images/main/logo.jpg" alt="" /></a>
+      </div>
+
+      <div class="search">
+        <input type="text" size="30" placeholder="밀키트를 검색해 보세요" />
+        <a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+    </header>
+    <!--header-->
+
+    <div class="lnb_box">
+      <nav class="lnb">
+        <div class="ham">
+          <input type="checkbox" id="chk_ham" />
+          <label for="chk_ham">
+            <i class="fa-sharp fa-solid fa-bars"></i>&nbsp;&nbsp;전체 카테고리
+          </label>
+          <ul>
+            <li><a href="#!">잇츠온 밀키트</a></li>
+            <li><a href="sub.html">국/반찬</a></li>
+            <li><a href="#!">식재료/달걀</a></li>
+            <li><a href="#!">커피/음료</a></li>
+            <li><a href="#!">샐러드/식사대용식</a></li>
+            <li><a href="#!">베이커리/디저트</a></li>
+            <li><a href="#!">유기농 푸드</a></li>
+          </ul>
+        </div>
+
+        <div class="main_lnb">
+          <ul>
+            <li><a href="#!">신제품</a></li>
+            <li><a href="#!">김장김치이벤트</a></li>
+            <li><a href="#!">하이프레시GO</a></li>
+            <li><a href="#!">11월 할인</a></li>
+            <li><a href="#!">이벤트</a></li>
+          </ul>
+        </div>
+
+        <div class="sub_lnb">
+          <ul>
+            <li><a href="#!">라이프</a></li>
+            <li><a href="#!">내게맞는 제품찾기</a></li>
+            <li><a href="#!">브랜드</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--lnb_box-->
+
+    <section class="category">
+      <ul>
+        <li>
+          <a href="index.html"
+            ><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;</a
+          ><i class="fa-solid fa-chevron-right"></i>
+        </li>
+        <li>
+          <a href="sub.html">&nbsp;&nbsp;&nbsp;국/반찬&nbsp;&nbsp;&nbsp;</a
+          ><i class="fa-solid fa-chevron-right"></i>
+        </li>
+        <li>
+          <a href="sub.html"
+            >&nbsp;&nbsp;&nbsp;국·반찬·김치&nbsp;&nbsp;&nbsp;</a
+          >
+        </li>
+      </ul>
+    </section>
+    <!--category-->
+
+    <section class="date_box">
+      <p>먼저 배송 받을 날을 선택해 주세요.</p>
+
+      <div class="date_bar">
+        <div class="left date_btn"><i class="fa-solid fa-angle-left"></i></div>
+        <ul>
+          <li>금<br /><span style="font-size: 18px">11/22</span></li>
+          <li>토<br /><span style="font-size: 18px">11/23</span></li>
+          <li>일<br /><span style="font-size: 18px">11/24</span></li>
+          <li>월<br /><span style="font-size: 18px">11/25</span></li>
+          <li>화<br /><span style="font-size: 18px">11/26</span></li>
+          <li>수<br /><span style="font-size: 18px">11/27</span></li>
+          <li>목<br /><span style="font-size: 18px">11/28</span></li>
+        </ul>
+        <div class="right date_btn">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="kimchi_box">
+      <div class="kimchi_left">
+        <div class="kimchi_left01">
+          <img src="./images/detail/product_img.jpg" alt="" />
+        </div>
+        <div class="kimchi_left02">
+          <img src="./images/detail/product_img.jpg" alt="" />
+          <a href="#!"
+            ><div class="chat">Smart<br />스마트채팅상담 ></div></a
+          >
+        </div>
+        <div class="kimchi_left03">sns</div>
+        <div class="kimchi_left04">기획전&이벤트</div>
+      </div>
+
+      <div class="kimchi_right">
+        <div class="kimchi_right01">
+          <p class="event_text">
+            구매 시 보쌈용 한돈 앞다리살 400g을 추가로 드립니다.
+          </p>
+          <p class="product_text">
+            종가집 김장김치 7kg(앞다리살 400g 추가 증정)
+          </p>
+          <p class="origin_text">원산지 : 하단상세설명 참조</p>
+          <p class="sale_text">62,100원</p>
+          <p class="price_text">
+            52,500<span style="font-size: 12px">원</span>
+          </p>
+        </div>
+        <div class="kimchi_right02">
+          <p class="del_text">매니저배송</p>
+          <p class="del_text">무료배송</p>
+          <br />
+          <p class="login_text">
+            로그인 하시면 배송지를 확인/설정 하실 수 있습니다.
+          </p>
+          <a href="#!"><p class="login_btn">로그인</p></a>
+        </div>
+        <div class="kimchi_right03">
+          <div class="order"><input type="radio" checked /> 1회 주문</div>
+          <hr />
+          <div class="product">
+            <p>종가집 김장김치 7kg(앞다리살 400g 추가 증정)</p>
+            <p style="color: #019cdc">52,500원</p>
+          </div>
+        </div>
+        <div class="kimchi_right04">
+          <p>상품금액합계</p>
+          &nbsp;&nbsp;&nbsp;
+          <p class="price_text">
+            <span style="font-size: 18px">52,500</span>원
+          </p>
+        </div>
+        <div class="kimchi_right05">
+          <a href="#!"><div class="cart_btn">장바구니</div></a>
+          <a href="#!"><div class="order_btn">바로주문</div></a>
+        </div>
+      </div>
+    </section>
+    <!--kimchi_box-->
+
+    <section class="detail_banner">
+      <p>이 제품과 함께하면 좋은 제품</p>
+    </section>
+
+    <section class="link">
+      <a href="#detail_page_img"><p class="link_checked">상품설명</p></a>
+      <a href="#review"><p>상품후기 (5건)</p></a>
+      <a href="#qna"><p>상품문의 (4건)</p></a>
+      <a href="#notice"><p>배송안내</p></a>
+      <p class="blank">&nbsp;</p>
+    </section>
+
+    <section id="detail_page_img">
+      <img src="./images/detail/product_detail.jpg" alt="" />
+    </section>
+
+    <section class="link">
+      <a href="#detail_page_img"><p>상품설명</p></a>
+      <a href="#review"><p class="link_checked">상품후기 (5건)</p></a>
+      <a href="#qna"><p>상품문의 (4건)</p></a>
+      <a href="#notice"><p>배송안내</p></a>
+      <p class="blank">&nbsp;</p>
+    </section>
+
+    <section id="review">
+      <img src="./images/detail/review.jpg" alt="" />
+    </section>
+
+    <section class="link">
+      <a href="#detail_page_img"><p>상품설명</p></a>
+      <a href="#review"><p>상품후기 (5건)</p></a>
+      <a href="#qna"><p class="link_checked">상품문의 (4건)</p></a>
+      <a href="#notice"><p>배송안내</p></a>
+      <p class="blank">&nbsp;</p>
+    </section>
+
+    <section id="qna">
+      <img src="./images/detail/qna.jpg" alt="" />
+    </section>
+
+    <section class="link">
+      <a href="#detail_page_img"><p>상품설명</p></a>
+      <a href="#review"><p>상품후기 (5건)</p></a>
+      <a href="#qna"><p>상품문의 (4건)</p></a>
+      <a href="#notice"><p class="link_checked">배송안내</p></a>
+      <p class="blank">&nbsp;</p>
+    </section>
+
+    <section id="notice">
+      <img src="./images/detail/notice.jpg" alt="" />
+    </section>
+
+    <footer class="footer_box">
+      <div class="footer02_box">
+        <div class="footer02">
+          <ul>
+            <li><a href="#!">회사소개</a></li>
+            <li><a href="#!">CCM</a></li>
+            <li><a href="#!">이용약관</a></li>
+            <li>
+              <a href="#!"
+                ><span style="color: #019cdc">개인정보처리방침</span></a
+              >
+            </li>
+            <li><a href="#!">위치기반서비스 이용약관</a></li>
+            <li><a href="#!">야쿠르트 채용</a></li>
+            <li><a href="#!">Fresh매니저 모집</a></li>
+            <li>
+              <input type="checkbox" id="chk_box01" />
+
+              <div class="label">
+                <label for="chk_box01">
+                  Family Site&nbsp;&nbsp;<i class="fa-solid fa-chevron-up"></i>
+                </label>
+              </div>
+
+              <div class="sheet"></div>
+            </li>
+            <li>
+              <input type="checkbox" id="chk_box02" />
+
+              <div class="label">
+                <label for="chk_box02">
+                  메뉴 전체보기&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-up"
+                  ></i>
+                </label>
+              </div>
+
+              <div class="sheet"></div>
+            </li>
+          </ul>
+        </div>
+        <!--footer02-->
+      </div>
+      <!--footer02_box-->
+      <div class="footer03_box">
+        <div class="footer03-1">hy야쿠르트</div>
+        <div class="footer03-2">
+          <ul>
+            <li>
+              상호명&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >(주)한국야쿠르트</span
+              >
+            </li>
+            <li>
+              대표이사&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >김병진</span
+              >
+            </li>
+            <li>
+              주소&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >서울특별시 서초구 강남대로 577</span
+              >
+            </li>
+            <li>
+              고객센터&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >1577-3651</span
+              >
+            </li>
+            <li>
+              이메일&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >counsel@yakult.co.kr</span
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              사업자
+              등록번호&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >114-81-70065</span
+              >
+            </li>
+            <li>
+              통신판매업신고번호&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>제2004-서울서초-04175</span>&nbsp;&nbsp;&nbsp;<a
+                href="#!"
+                >&nbsp;사업자정보확인&nbsp;>&nbsp;</a
+              >
+            </li>
+            <li>
+              방문판매업신고번호&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >제2010-서울서초-0140호</span
+              >
+            </li>
+            <li>
+              부가통신사업신고&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                >02201</span
+              >
+            </li>
+            <li>
+              개인정보관리 및 청소년보호
+              책임자&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>최동일</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              소비자피해보상보험<img src="./images/main/sgi_logo.JPG" alt="" />
+            </li>
+            <li>
+              <span
+                >고객님은 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서
+                가입한 구매안전 서비스를 이용하실 수 있습니다.<br />(보상대상:미배송,반품/환불거부,쇼핑몰
+                부도)</span
+              >&nbsp;&nbsp;&nbsp;<a href="#!"
+                >&nbsp;가입사실 확인&nbsp;>&nbsp;</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer03-3">
+          <ul>
+            <li>Copyright (c) 2017 KOREA YAKULT CO.,LTD</li>
+            <li>All Rights Reserved.</li>
+          </ul>
+          <ul>
+            <li><img src="./images/main/ncsi_logo.JPG" alt="" /></li>
+          </ul>
+          <ul>
+            <li>국가고객만족도</li>
+            <li>21년 연속 1위 (우유/발효유)</li>
+          </ul>
+          <ul>
+            <li><img src="./images/main/ccm_logo.JPG" alt="" /></li>
+          </ul>
+          <ul>
+            <li>소비자중심경영</li>
+            <li>(CCM) 인증획득</li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fa-solid fa-t"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--footer03_box-->
+    </footer>
+    <!--footer_box-->
+
+    <nav class="wing_banner">
+      <input type="checkbox" id="wing" />
+
+      <div class="label">
+        <label for="wing"><img src="./images/main/cart.png" alt="" /></label>
+      </div>
+
+      <div class="banner">wing_banner</div>
+    </nav>
+    <!--wing_banner-->
+  </body>
+</html>
