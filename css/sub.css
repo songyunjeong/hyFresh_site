@@ -1,0 +1,244 @@
+/*-------- category --------*/
+.category {
+  width: 1070px;
+  height: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  margin: 0 auto 15px;
+}
+.category ul {
+  padding: 25px 0 0 10px;
+  box-sizing: border-box;
+}
+.category ul li {
+  display: inline-block;
+}
+.category ul a {
+  color: #999;
+}
+
+.category div {
+  width: 150px;
+  height: 30px;
+  background-color: #019cdc;
+  font-size: 12px;
+  font-weight: bold;
+  color: #eee;
+  margin-top: 20px;
+  padding: 7px 0 0 15px;
+  box-sizing: border-box;
+}
+.category div a {
+  color: white;
+}
+
+/*-------- array_box --------*/
+.array_box {
+  width: 1070px;
+  height: 30px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+}
+.array_box ul {
+  height: 30px;
+  font-size: 0;
+  margin-top: 5px;
+  float: left;
+}
+
+.array_box ul li {
+  display: inline-block;
+  border-right: 1px solid #999;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 10px;
+  padding: 0 14px;
+  box-sizing: border-box;
+}
+.array_box ul a {
+  color: #999;
+}
+.array_box ul li:first-child {
+  padding-left: 0;
+}
+.array_box ul li:last-child {
+  border: 0;
+  padding-right: 0;
+}
+
+#window,
+#line {
+  display: none;
+}
+
+#window:checked ~ .label .window_open {
+  display: block;
+}
+#window:checked ~ .label .window_close {
+  display: none;
+}
+#window:checked ~ .label .line_open {
+  display: none;
+}
+#window:checked ~ .label .line_close {
+  display: block;
+}
+
+#window ~ .label .window_open {
+  display: none;
+}
+#window ~ .label .window_close {
+  display: block;
+}
+#window ~ .label .label_open {
+  display: block;
+}
+#window ~ .label .label_close {
+  display: none;
+}
+
+#line:checked ~ .label .window_open {
+  display: none;
+}
+#line:checked ~ .label .window_close {
+  display: block;
+}
+#line:checked ~ .label .line_open {
+  display: block;
+}
+#line:checked ~ .label .line_close {
+  display: none;
+}
+
+#line ~ .label .window_open {
+  display: block;
+}
+#line ~ .label .window_close {
+  display: none;
+}
+#line ~ .label .line_open {
+  display: none;
+}
+#line ~ .label .line_close {
+  display: block;
+}
+
+.array_box .array label:hover {
+  cursor: pointer;
+}
+
+.array_box .array {
+  float: right;
+}
+.array_box .array .label label {
+  float: left;
+  margin-left: 15px;
+}
+
+#window:checked ~ .item_box {
+  display: block;
+}
+#window ~ .item_box {
+  display: none;
+}
+
+/*-------- item_box --------*/
+.item_box {
+  width: 1070px;
+  height: 1500px;
+
+  margin: 0 auto 100px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.item_box .box01,
+.item_box .box02,
+.item_box .box03 {
+  width: 1070px;
+  height: 480px;
+  float: left;
+}
+.item_box .box02 {
+  margin: 25px 0;
+}
+.item_box .img img {
+  width: 338px;
+  height: 340px;
+}
+.item_box .text {
+  width: 340px;
+  height: 120px;
+  font-size: 0;
+  font-weight: bold;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.item_box .text .del_text {
+  display: inline-block;
+  font-size: 10px;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin-right: 2px;
+  padding: 1px 5px;
+  box-sizing: border-box;
+}
+.item_box .text .product_text {
+  font-size: 15px;
+  color: #333;
+  margin-top: 15px;
+}
+.item_box .text .sale_text {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #aaa;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+.item_box .text .price_text {
+  display: inline-block;
+  height: 30px;
+  font-size: 18px;
+  color: #019cdc;
+}
+.item_box .text .won_text {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #019cdc;
+}
+.item_box .product01,
+.item_box .product02,
+.item_box .product03,
+.item_box .product04,
+.item_box .product05,
+.item_box .product06,
+.item_box .product07,
+.item_box .product08,
+.item_box .product09 {
+  width: 340px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+}
+.item_box .product02,
+.item_box .product05,
+.item_box .product08 {
+  margin: 0 25px;
+}
+.item_box .product01:hover,
+.item_box .product02:hover,
+.item_box .product03:hover,
+.item_box .product04:hover,
+.item_box .product05:hover,
+.item_box .product06:hover,
+.item_box .product07:hover,
+.item_box .product08:hover,
+.item_box .product09:hover {
+  border-color: black;
+}
